@@ -1,0 +1,68 @@
+package src.java;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("\nwybierz opcje\n");
+        System.out.println("1. pojazdy dostepne w bazie");
+        System.out.println("2. wyporzyczenie pojazdu");
+        System.out.println("3. oddanie pojazdu");
+
+        System.out.println("Moja opcja: ");
+
+        Scanner in1 = new Scanner(System.in);
+        int option1 = in1.nextInt();
+
+        switch(option1) {
+            case 1:
+                System.out.println("pojazdy ktore posiadamy: ");
+                break;
+            case 2:
+                System.out.println("jaki typ pojazdu cie interesuje?");
+                System.out.println("1. samochod terenowy");
+                System.out.println("2. samochod do miasta");
+                System.out.println("3. motor");
+
+                System.out.println("Moja opcja: ");
+
+                Scanner in2 = new Scanner(System.in);
+                int option2 = in2.nextInt();
+
+                switch (option2) {
+                    case 1:
+                        System.out.println("nasze samochody terenowe: ");
+                    case 2:
+                        System.out.println("nasze samochody do miasta: ");
+                    case 3:
+                        System.out.println("nasze motory: ");
+                }
+                break;
+            case 3:
+                System.out.println("czy twoj pojazd zostal umieszczony w jednym z lokali?");
+                System.out.println("tak/nie: ");
+
+                Scanner option3 = new Scanner(System.in);
+                String answer = option3.nextLine();
+
+                if (answer.equals("tak")) {
+                    System.out.println("okej, nasi pracownicy to sprawdza i zaakceptuja zwrot pojazdu");
+                } else if (answer.equals("nie")) {
+                    System.out.println("prosimy umiescic pojazd w jednym z salonow, a nastepnie skorzystac ze zwrotu ponownie");
+                }
+                break;
+        }
+    }
+
+    public static void list() {
+        ArrayList<String> cars = new ArrayList<String>();
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("Mazda");
+        System.out.println(cars.get(2));
+    }
+}
