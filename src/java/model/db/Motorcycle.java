@@ -20,6 +20,20 @@ public class Motorcycle {
         return "Motorcycle = Name: " + name + " Brand: " + brand + " Is it available: " + rental + " Year of production: " + year;
     }
 
+    public String getBrand(){
+        return brand;
+    }
+    public void setBrand(String brand){
+        this.brand = brand;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }
 
 
