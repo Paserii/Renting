@@ -28,10 +28,12 @@ public class Main{
         motorcycle1.setBrand("Honda");
         System.out.println(motorcycle1.getBrand());
 
-        whatdo mycar =
-
 
     }
+
+
+
+
 
 }
 

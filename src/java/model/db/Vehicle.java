@@ -3,9 +3,9 @@ package src.java.model.db;
 public interface Vehicle {
     // 3 metody ktore: 1. wypisac pojazd jedzie 2. pojazd stoi. 3. pojazd jest wypozyczony
 
-    public void wziuuum();
-    public void stap();
-    public void taken();
+    void wziuuum();
+    void stap();
+    void taken();
 
     class whatdo implements Vehicle{
         @Override
@@ -23,7 +23,4 @@ public interface Vehicle {
             System.out.println("samochod jest wynajety");
         }
     }
-
-
-
 }
