@@ -1,7 +1,7 @@
 package src.java.model.db;
 
 
-public class Car {
+public class Car implements Vehicle {
 
 
     private String name;
@@ -36,5 +36,20 @@ public class Car {
     }
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public void wziuuum() {
+        System.out.println("samochod jedzie");
+    }
+
+    @Override
+    public void stap() {
+        System.out.println("samochod stoi");
+    }
+
+    @Override
+    public void taken() {
+        System.out.println("samochod jest wynajety");
     }
 }

@@ -1,6 +1,6 @@
 package src.java.model.db;
 
-public class Motorcycle {
+public class Motorcycle implements Vehicle{
     private String name;
     private String brand;
     private boolean rental;
@@ -34,6 +34,20 @@ public class Motorcycle {
         this.name = name;
     }
 
+    @Override
+    public void wziuuum() {
+        System.out.println("samochod jedzie");
+    }
+
+    @Override
+    public void stap() {
+        System.out.println("samochod stoi");
+    }
+
+    @Override
+    public void taken() {
+        System.out.println("samochod jest wynajety");
+    }
 }
 
 

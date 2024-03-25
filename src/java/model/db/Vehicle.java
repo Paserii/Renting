@@ -6,21 +6,4 @@ public interface Vehicle {
     void wziuuum();
     void stap();
     void taken();
-
-    class Doing implements Vehicle{
-        @Override
-        public void wziuuum() {
-            System.out.println("samochod jedzie");
-        }
-
-        @Override
-        public void stap() {
-            System.out.println("samochod stoi");
-        }
-
-        @Override
-        public void taken() {
-            System.out.println("samochod jest wynajety");
-        }
-    }
 }

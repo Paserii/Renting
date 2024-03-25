@@ -7,9 +7,6 @@ import src.java.model.db.Vehicle;
 public class Main{
     public static void main(String[] args){
 
-        Vehicle.Doing myvehicle = new Vehicle();
-        myvehicle.stap();
-
         // konstruktor pusty:
         Car car = new Car();
 
@@ -30,6 +27,12 @@ public class Main{
 
         motorcycle1.setBrand("Honda");
         System.out.println(motorcycle1.getBrand());
+
+        kawasaki.taken();
+
+
+        // wypisz liste samochodow z klasy CarDAO;
+
     }
 }
 
