@@ -7,7 +7,7 @@ public interface Vehicle {
     void stap();
     void taken();
 
-    class whatdo implements Vehicle{
+    class Doing implements Vehicle{
         @Override
         public void wziuuum() {
             System.out.println("samochod jedzie");
