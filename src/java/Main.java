@@ -1,6 +1,7 @@
 package src.java;
 
 import src.java.model.db.Car;
+import src.java.model.db.CarDAO;
 import src.java.model.db.Motorcycle;
 import src.java.model.db.Vehicle;
 
@@ -32,7 +33,6 @@ public class Main{
 
 
         // wypisz liste samochodow z klasy CarDAO;
-
     }
 }
 
