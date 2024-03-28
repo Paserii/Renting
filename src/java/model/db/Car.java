@@ -5,6 +5,10 @@ public class Car implements Vehicle {
 
     // dodaj pole ID
 
+    public void setRental(boolean rental) {
+        this.rental = rental;
+    }
+
     private String id;
     private String name;
     private String brand;
@@ -37,6 +41,11 @@ public class Car implements Vehicle {
     public String getName() {
         return name;
     }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     public void setName(String name) {
         this.name = name;
     }

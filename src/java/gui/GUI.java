@@ -12,7 +12,8 @@ public class GUI {
                 1. pojazdy dostepne w bazie
                 2. wyporzyczenie pojazdu
                 3. oddanie pojazdu
-                4. Exit""");
+                4. Exit
+                Wybierz: """);
         int option = scanner.nextInt();
 
         System.out.println("Moja opcja: " + option);

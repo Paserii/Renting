@@ -27,7 +27,7 @@ public class MotorcycleDAO {
         return super.toString();
     }
 
-    public void listAllCars(List<Motorcycle> motorcycles) {
+    public void listAllMotorcycles(List<Motorcycle> motorcycles) {
         for (int i = 0; i < motorcycles.size(); i++) {
             System.out.println(motorcycles.get(i));
         }
