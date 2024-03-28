@@ -1,12 +1,14 @@
 package src.java.model.db;
 
 public class Motorcycle implements Vehicle{
+    private String id;
     private String name;
     private String brand;
     private boolean rental;
     private int year;
 
-    public Motorcycle(String name, String brand, boolean rental, int year) {
+    public Motorcycle(String id, String name, String brand, boolean rental, int year) {
+        this.id = id;
         this.name = name;
         this.brand = brand;
         this.rental = rental;

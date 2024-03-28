@@ -18,22 +18,22 @@ public class Main{
         // instancje samochodu bmw:
 
 
-        Car bmw = new Car("Samochod Basi", "BMW", false, 2019);
+        //Car bmw = new Car("Samochod Basi", "BMW", false, 2019);
 
         Motorcycle motorcycle = new Motorcycle();
 
-        Motorcycle kawasaki = new Motorcycle("motor szymona", "Kawasaki", true, 2024);
-        Motorcycle motorcycle1 = new Motorcycle("motor szymona", "Kawasaki", true, 2024);
+        //Motorcycle kawasaki = new Motorcycle("motor szymona", "Kawasaki", true, 2024);
+        //Motorcycle motorcycle1 = new Motorcycle("motor szymona", "Kawasaki", true, 2024);
 
 
         // Zmien (setter) brand  motorcycle1 na Honda i wypisz tego branda (getter)
-        System.out.println(bmw);
-        System.out.println(kawasaki);
+        //System.out.println(bmw);
+        //System.out.println(kawasaki);
 
-        motorcycle1.setBrand("Honda");
-        System.out.println(motorcycle1.getBrand());
+        //motorcycle1.setBrand("Honda");
+        //System.out.println(motorcycle1.getBrand());
 
-        kawasaki.taken();
+        //kawasaki.taken();
 
 
         // wypisz liste samochodow z klasy CarDAO;
