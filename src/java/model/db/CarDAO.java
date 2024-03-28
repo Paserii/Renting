@@ -42,7 +42,6 @@ public class CarDAO {
 
         // sprawdzenie czy jest jest wypozyczony jak jest wyswietl odpowidnia informacje a jak sie uda to tez
         cars.get(id).setRental(false);
-
         System.out.println("Car rented successfully.");
     }
 

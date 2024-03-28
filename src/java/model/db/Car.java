@@ -31,6 +31,17 @@ public class Car implements Vehicle {
         return "Car = Name: " + name + " Brand: " + brand + " Is it available: " + rental + " Year of production: " + year;
     }
 
+    //ID
+    public String getId(){return id;}
+    public void setId(String id) {this.id = id;}
+
+    //NAME
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {this.name = name;}
+
+    //BRAND
     public String getBrand(){
         return brand;
     }
@@ -38,17 +49,15 @@ public class Car implements Vehicle {
         this.brand = brand;
     }
 
-    public String getName() {
-        return name;
-    }
+    //RENTAL
+    public boolean getRental(){return rental;}
+    public void setRental(){this.rental = rental;}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    //YEAR
+    public int getYear(){return year;}
+    public void setYear(){this.year = year;}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+
 
     @Override
     public void wziuuum() {
