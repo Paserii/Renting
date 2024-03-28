@@ -3,14 +3,17 @@ package src.java.model.db;
 
 public class Car implements Vehicle {
 
+    // dodaj pole ID
 
+    private String id;
     private String name;
     private String brand;
     private boolean rental;
     private int year;
 
 
-    public Car(String name, String brand, boolean rental, int year) {
+    public Car(String id, String name, String brand, boolean rental, int year) {
+        this.id = id;
         this.name = name;
         this.brand = brand;
         this.rental = rental;
